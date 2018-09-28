@@ -1,8 +1,8 @@
-# ATUS FINANCEIRO API #
+# GENERIC API #
 
 ### Projeto ###
 
-WebService do projeto Atus do Módulo Financeiro
+WebService Generic
 Projeto Baseado em Spring boot com Rest e JPA e Banco de dados Postgresql
 
 
@@ -33,7 +33,7 @@ Caso não possua o banco de dados configurado:
     mvn clean package -DskipTests=true
 
 Execute o projeto com:
-    java -jar AtusFinanceiroAPI-0.1-SNAPSHOT.jar
+    java -jar springbaseapi-0.1-SNAPSHOT.jar
 
 
 ### Endpoints para test via Swagger ###
@@ -44,6 +44,6 @@ http://localhost:8080/swagger-ui.html
 
 
 usuario padrão cadastrado no sistema
-username: atus
+username: admin
 password: 123456
 
